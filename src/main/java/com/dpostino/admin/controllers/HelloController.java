@@ -20,6 +20,7 @@ public class HelloController {
 	public String index(ModelMap model) {
 		logger.info("log .....this called");		
 		model.addAttribute("message", "Hi From Dpostino"+IpAddress.getIp());
+		System.out.print("you can start working here importhis in yourworkspce view");
 		return "hello";
 	}
 	
